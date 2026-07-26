@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260723-05-e9a76f4"}');</script><script src="/_sdk/e358eac22bd01364.telemetry_sdk.js" integrity="sha512-KPxp3rw4K8Nu9ceWJc3gyM7srgaZxiFWOVbyu260EYzzAqdz10mfo5xyXrCx+wEKtGo77JbtmwXvFLbwrGzwvw=="></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Industry Transformation Mission</title>
@@ -50,8 +50,8 @@
             .flow-node { transition: none; }
         }
     </style>
-  
-  
+  <script src="/_sdk/935a53bc2e11fb8d.data_sdk.js" type="text/javascript" integrity="sha512-qr2oyPnEys1WebcOABaRh6hG77r5PWpqeWW6JTKbRJqly/INsfBi31CVNlTmHqjgeLpkVmmHZJUdxSx/32tOFQ=="></script>
+  <script src="/_sdk/6030e540d4419216.resizing_sdk.js" type="text/javascript" integrity="sha512-b5KWzyoXsbWP4smq4sftIi6Kts4YVBpBsz0BwCViwbBJkK64a3/Z6ZMdWA+qnplNcXw4mhZeqvQi3mOosiRJdA=="></script>
  </head>
  <body data-template-id="__page-root" class="min-h-screen" style="background: rgb(10, 22, 40);">
   <div class="w-full max-w-4xl mx-auto px-4 py-6"><!-- Progress Bar -->
@@ -68,7 +68,7 @@
    </nav><!-- Screens Container -->
    <main id="app" aria-live="polite"></main>
   </div>
-  
+  <script src="/_sdk/c939c145c3c74230.editing_sdk.js" integrity="sha512-jh2pv/gl9Gzzn5dxfzwQO4wkqtnAQIim+LIUDYfVu2cdqPkQV2MqbjsDUW5IYbrSZFjRlOBrIWzlvWDXQYxOjg=="></script>
   <script>
     (function() {
         // Game State
@@ -185,7 +185,7 @@
             app.innerHTML = `
                 <div class="fade-in text-center">
                     <p class="text-cyan-400 uppercase tracking-widest text-sm mb-2">Mission 4</p>
-                    <h1 class="text-3xl md:text-4xl font-black text-white mb-6">Industry Transformation Mission</h1>
+                    <h1 class="text-3xl md:text-4xl font-black text-white mb-6" data-template-id="mission-title"></h1>
                     <div class="card glow-cyan p-6 md:p-8 text-left max-w-2xl mx-auto mb-8">
                         <p class="text-gray-300 mb-4">Congratulations.</p>
                         <p class="text-gray-300 mb-4">Your previous investigations successfully reconstructed the history of industrial development, compared the four Industrial Revolutions, and modernised individual factory operations.</p>
@@ -203,8 +203,8 @@
                         </ul>
                     </div>
                     <div class="flex flex-wrap gap-4 justify-center">
-                        <button class="btn-primary" onclick="game.navigate('profile')">Start Mission</button>
-                        <button class="btn-secondary" onclick="game.navigate('howtoplay')">How to Play</button>
+                        <button class="btn-primary" onclick="game.navigate('profile')"> Start Mission </button>
+                        <button class="btn-secondary" onclick="game.navigate('howtoplay')"> How to Play </button>
                     </div>
                 </div>`;
             lucide.createIcons();
@@ -231,9 +231,9 @@
                     <h2 class="text-2xl font-bold text-white mb-2">Client Profile</h2>
                     <div class="card glow-cyan p-6 mb-6">
                         <div class="flex items-start gap-4 mb-4">
-                            <img src="https://images.pexels.com/photos/3846559/pexels-photo-3846559.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Manufacturing factory" loading="lazy" class="w-24 h-24 rounded-lg object-cover shrink-0">
+                            <img data-template-id="factory-img" loading="lazy" class="canva-image w-24 h-24 rounded-lg object-cover shrink-0">
                             <div>
-                                <h3 class="text-xl font-bold text-white">Apex Precision Manufacturing</h3>
+                                <h3 class="text-xl font-bold text-white" data-template-id="company-name"></h3>
                                 <p class="text-cyan-400 text-sm">Precision component manufacturing</p>
                                 <p class="text-gray-400 text-sm">280 employees</p>
                             </div>
@@ -588,7 +588,7 @@
                         <div class="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center mb-4 glow-gold">
                             <i data-lucide="award" class="w-10 h-10 text-navy"></i>
                         </div>
-                        <h2 class="text-3xl font-black text-white mb-2">Mission 4 Completed</h2>
+                        <h2 class="text-3xl font-black text-white mb-2" data-template-id="completion-title"></h2>
                         <p class="text-lg ${perf.color} font-bold">${perf.title}</p>
                         <p class="text-4xl font-black text-white mt-2">${total}/100</p>
                     </div>
@@ -599,7 +599,7 @@
                     <div class="flex flex-wrap gap-3 justify-center">
                         <button class="btn-secondary" onclick="game.navigate('report')"><i data-lucide="file-text" class="w-4 h-4 inline"></i> Review Consultancy Report</button>
                         <button class="btn-secondary" onclick="game.replay()"><i data-lucide="rotate-ccw" class="w-4 h-4 inline"></i> Replay Mission</button>
-                        <button class="btn-primary opacity-60 cursor-not-allowed" onclick="alert('The main portal link will be added after all missions are published.')" title="The main portal link will be added after all missions are published."><i data-lucide="home" class="w-4 h-4 inline"></i> Return to Main Portal</button>
+                        <button class="btn-primary opacity-60 cursor-not-allowed" onclick="alert" title="The main portal link will be added after all missions are published."><i data-lucide="home" class="w-4 h-4 inline"></i> Return to Main Portal</button>
                     </div>
                     <p class="text-xs text-gray-500 mt-3">The main portal link will be added after all missions are published.</p>
                 </div>`;
